@@ -68,8 +68,7 @@ Hi 👋, I'm Krishna Narzary<br><br>ML Developer | Software Developer | Competit
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=krishnanarzary&theme=dark&hide_border=false&include_all_commits=true&count_private=false" />
-  <br/>
+  <!-- Removed the first GitHub stats box -->
   <img src="https://nirzak-streak-stats.vercel.app/?user=krishnanarzary&theme=dark&hide_border=false" />
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishnanarzary&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" />
