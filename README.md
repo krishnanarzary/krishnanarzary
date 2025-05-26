@@ -80,3 +80,11 @@ Hi 👋, I'm Krishna Narzary<br><br>ML Developer | Software Developer | Competit
     <img src="https://visitcount.itsvg.in/api?id=krishnanarzary&icon=0&color=0" />
   </a>
 </p>
+
+
+
+<div align="center">
+  <img src="https://github.com/krishnanarzary/krishnanarzary/blob/output/github-snake-dark.svg" alt="snake gif" />
+</div>
+
+
