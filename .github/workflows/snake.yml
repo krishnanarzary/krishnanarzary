@@ -1,9 +1,14 @@
 name: GitHub Snake Game
 
 on:
+  # Schedule the workflow to run daily at midnight UTC
   schedule:
-    - cron: "0 0 * * *" # Every day at midnight UTC
+    - cron: "0 0 * * *"
+
+  # Allow manual triggering of the workflow
   workflow_dispatch:
+
+  # Trigger the workflow on pushes to the main branch
   push:
     branches:
       - main
@@ -14,9 +19,11 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      # Step 2: Generate the snake animations
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
@@ -28,11 +35,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Ensure dist folder exists
-        run: ls -la dist || echo "dist folder not found!"
+      # Optional Debugging: Check if the output files exist
+      - name: List dist folder contents
+        run: |
+          echo "Checking contents of dist folder:"
+          ls -la dist || echo "dist folder does not exist."
 
+      # Step 3: Deploy the generated files to the 'output' branch
       - name: Deploy to Output Branch
-        if: success() && always()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
