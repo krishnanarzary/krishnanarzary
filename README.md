@@ -57,17 +57,3 @@ Hi 👋, I'm Krishna Narzary<br><br>ML Developer | Software Developer | Competit
   <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
-<h2 align="center">📊 GitHub Stats</h2>
-
-<p align="center">
-  <!-- Removed the first GitHub stats box -->
-  <img src="https://nirzak-streak-stats.vercel.app/?user=krishnanarzary&theme=dark&hide_border=false" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishnanarzary&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" />
-</p>
-
-
-
-
-
-
